@@ -66,13 +66,14 @@ const Animation = () => {
       }
 
       if (scrollPosition >= 1700 && scrollPosition <= 1900) {
-        setImageWidth(200);
+        // setImageWidth(200);
+        setImageWidth((prevState) => prevState - 0.25);
 
         setimageSrc(image2);
         // setImageWidth(200);
       }
 
-      if (scrollPosition >= 2000 && scrollPosition <= 2500) {
+      if (scrollPosition >= 2200 && scrollPosition <= 2500) {
         setimageSrc(image3);
         setImageWidth(200);
       }
