@@ -3,14 +3,14 @@ import { useEffect, useState } from "react";
 import { Box, Container, Typography } from "@mui/material";
 
 // @ts-ignore
-import video from "./Image/large.mp4";
+import video from "./image/large.mp4";
 
 // @ts-ignore
-import image1 from "./Image/1.jpg";
+import image1 from "./image/1.jpg";
 // @ts-ignore
-import image2 from "./Image/2.jpg";
+import image2 from "./image/2.jpg";
 // @ts-ignore
-import image3 from "./Image/3.jpg";
+import image3 from "./image/3.jpg";
 
 const Animation = () => {
   // Typographys text
